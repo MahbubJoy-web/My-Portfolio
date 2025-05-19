@@ -16,7 +16,7 @@ const Facelity = () => {
     <>
      <div className=""style={{ backgroundImage: `url(${bg})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <div className="container flex flex-col gap-[40px] items-center">
-            <div className="top_Card flex flex-wrap gap-[30px]">
+            <div className="top_Card flex flex-wrap justify-center gap-[30px]">
                 <div className="w-[649px] h-[510px] relative rounded-[23px] overflow-hidden border-[1px] border-[#3637499d]">
                     <div className="">
                         <img src={cardimg1} alt="" />
@@ -55,7 +55,7 @@ const Facelity = () => {
                     
                 </div>
             </div>
-            <div className="Buttom_card flex flex-wrap flex-row-reverse gap-[30px]">
+            <div className="Buttom_card flex flex-wrap justify-center flex-row-reverse gap-[30px]">
                 <div className="w-[811px] h-[390px] relative rounded-[23px] overflow-hidden border-[1px] border-[#3637499d] bg-[#000319]">
                     <div className="relative">
                         <img src={Card2bg} alt=""/>

@@ -5,6 +5,7 @@ import './App.css'
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router'
 import Home from './Pages/Home'
 import Layout from './Layout/Layout'
+ import { ToastContainer, toast } from 'react-toastify';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -21,6 +22,7 @@ function App() {
   return (
     <>
       <RouterProvider router={myroute} />
+      <ToastContainer />
     </>
   )
 }

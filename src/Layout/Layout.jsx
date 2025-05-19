@@ -8,7 +8,6 @@ const layout = () => {
     <>
       <Navber/>
       <Outlet/>
-      <Footer/>
     </>
   )
 }
