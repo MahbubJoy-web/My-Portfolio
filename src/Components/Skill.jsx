@@ -26,7 +26,7 @@ const Skill = () => {
               <h2 className='inline'>The Skills That <p className='text-[#CBACF9] inline ml-1'>Power My Code</p></h2>
             </div>
             <div className="mainIcons">
-              <div className="flex flex-wrap justify-center gap-14">
+              <div className="flex flex-wrap justify-center gap-14 gap-y-[150px]">
         {skills.map((skill) => (
           <SkillComp
             key={skill.name}

@@ -20,16 +20,16 @@ const Project = () => {
       <div className="pt-[105px]">
         <div className="container flex justify-center ">
             <div className="flex flex-col items-center">
-                <div className="text-[48px] font-inter font-bold pb-[48px]">
+                <div className="text-[48px] font-inter font-bold pb-[48px] text-center">
                     <h2 className='inline'>A small selection of<p className='text-[#CBACF9] inline-block ml-4'>Big projects</p> </h2>
                 </div>
                 <div className="flex flex-wrap gap-[30px] justify-center">
                     <div className="SingleCard">
-                        <div className="card w-[600px] px-[24px] py-[36px] border-[1px] border-[#3637499d] rounded-[20px]">
-                            <div className="w-[552px] rounded-[14px]">
-                                <img src={CardImg2} alt="" />
+                        <div className="card w-full xl:w-[600px] px-[24px] py-[36px] border-[1px] border-[#3637499d] rounded-[20px]">
+                            <div className="w-full xl:w-[552px] rounded-[14px]">
+                                <img src={CardImg2} alt="" className='w-full'/>
                             </div>
-                            <div className="w-[552px] mt-[36px] text font-inter">
+                            <div className="xl:w-[552px] mt-[36px] text font-inter">
                                 <h2 className='text-[32px] font-bold text-[#fff]'>NoteApp - for Smart Productivity </h2>
                                 <p className='text-[20px] mt-[18px] font-normal text-[#BEC1DD]'>A Full stack web, Helps you stay organized in your daily life or study notes. Built using React, Tailwind CSS & Firebase</p>
                             </div>
@@ -59,11 +59,11 @@ const Project = () => {
                         </div>
                     </div>
                      <div className="SingleCard">
-                        <div className="card w-[600px] px-[24px] py-[36px] border-[1px] border-[#3637499d] rounded-[20px]">
-                            <div className="w-[552px] rounded-[14px]">
-                                <img src={CAppa} alt="" />
+                        <div className="card w-full xl:w-[600px] px-[24px] py-[36px] border-[1px] border-[#3637499d] rounded-[20px]">
+                            <div className="w-full xl:w-[552px] rounded-[14px]">
+                                <img src={CAppa} alt="" className='w-full' />
                             </div>
-                            <div className="w-[552px] mt-[36px] text font-inter">
+                            <div className="w-fulll xl:w-[552px] mt-[36px] text font-inter">
                                 <h2 className='text-[32px] font-bold text-[#fff]'>Real-Time smooth Messaging  </h2>
                                 <p className='text-[20px] mt-[18px] font-normal text-[#BEC1DD]'>Perfect for real-time chatting with friends, small teams, or client communication — anytime, anywhere. Full Stack</p>
                             </div>
@@ -93,11 +93,11 @@ const Project = () => {
                         </div>
                     </div>
                     <div className="SingleCard">
-                        <div className="card w-[600px] px-[24px] py-[36px] border-[1px] border-[#3637499d] rounded-[20px]">
-                            <div className="w-[552px] rounded-[14px]">
-                                <img src={CardImg} alt="" />
+                        <div className="card w-full xl:w-[600px] px-[24px] py-[36px] border-[1px] border-[#3637499d] rounded-[20px]">
+                            <div className="w-full xl:w-[552px] rounded-[14px]">
+                                <img src={CardImg} alt="" className='w-full '/>
                             </div>
-                            <div className="w-[552px] mt-[36px] text font-inter">
+                            <div className="w-full xl:w-[552px] mt-[36px] text font-inter">
                                 <h2 className='text-[32px] font-bold text-[#fff]'>3D Animated Solar System </h2>
                                 <p className='text-[20px] mt-[18px] font-normal text-[#BEC1DD]'>Explore the wonders of our solar system with this captivating 3D Animation of the planets using HTML , CSS </p>
                             </div>
@@ -121,11 +121,11 @@ const Project = () => {
                         </div>
                     </div>
                     <div className="SingleCard">
-                        <div className="card w-[600px] px-[24px] py-[36px] border-[1px] border-[#3637499d] rounded-[20px]">
-                            <div className="w-[552px] rounded-[14px]">
-                                <img src={GmPro} alt="" />
+                        <div className="card w-full xl:w-[600px] px-[24px] py-[36px] border-[1px] border-[#3637499d] rounded-[20px]">
+                            <div className="w-full xl:w-[552px] rounded-[14px]">
+                                <img src={GmPro} alt="" className='w-full' />
                             </div>
-                            <div className="w-[552px] mt-[36px] text font-inter">
+                            <div className="w-full xl:w-[552px] mt-[36px] text font-inter">
                                 <h2 className='text-[32px] font-bold text-[#fff]'>Daily Web Tools – Guess & Organize </h2>
                                 <p className='text-[20px] mt-[18px] font-normal text-[#BEC1DD]'> Functional mini-project featuring a Number Guessing Game and a To-do list Built using HTML, CSS & JS, Boos.</p>
                             </div>
