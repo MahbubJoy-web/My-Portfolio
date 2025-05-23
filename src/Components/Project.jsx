@@ -17,7 +17,7 @@ import { GoArrowUpRight } from 'react-icons/go'
 const Project = () => {
   return (
     <>
-      <div className="pt-[105px] px-4">
+      <div id='Project' className="pt-[105px] px-4">
         <div className="container flex justify-center ">
             <div className="flex flex-col items-center">
                 <div className="sm:text-[48px] text-[32px] font-inter font-bold pb-[48px] text-center">

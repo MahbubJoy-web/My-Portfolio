@@ -67,7 +67,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="pt-[100px] pb-[40px] px-4" style={{ backgroundImage: `url(${BannerBG})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
+    <div id='Contact' className="pt-[100px] pb-[40px] px-4" style={{ backgroundImage: `url(${BannerBG})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
       <div className="container">
         <div className="flex flex-col items-center justify-center relative">
           <div className="sm:text-[48px] text-[32px] font-inter font-bold pb-[60px] text-center">

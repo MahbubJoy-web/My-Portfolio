@@ -11,7 +11,7 @@ import CV from '../assets/CV/cv.pdf'
 const Banner = () => {
   return (
     <>
-       <div className="w-full pt-[170px] sm:pt-[230px] sm:pb-[165px] pb-[100px] text-white px-6 lg:px-0" style={{ backgroundImage: `url(${BannerBG})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
+       <div id='Banner' className="w-full pt-[170px] sm:pt-[230px] sm:pb-[165px] pb-[100px] text-white px-6 lg:px-0" style={{ backgroundImage: `url(${BannerBG})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <div className=".comtainer flex justify-center">
             <div className=" flex flex-wrap items-center xl:justify-between justify-center">
              <div className="Banner_Text text-center md:w-[700px]">

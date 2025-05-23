@@ -20,7 +20,7 @@ const Skill = () => {
 
   return (
     <>
-      <div className="py-[110px] pb-[160px] px-4">
+      <div id='Skill' className="py-[110px] pb-[160px] px-4">
         <div className="container">
             <div className="sm:text-[48px] text-[32px] font-inter font-bold pb-[60px] text-center">
               <h2 className='inline'>The Skills That <p className='text-[#CBACF9] inline ml-1'>Power My Code</p></h2>
